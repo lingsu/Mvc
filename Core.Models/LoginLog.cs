@@ -21,7 +21,7 @@ namespace Core.Models
         [StringLength(15)]
         public string IpAddress { get; set; }
         /// <summary>
-        /// 用户
+        /// 用户实体模型
         /// </summary>
         public virtual Member Member { get; set; }
     }

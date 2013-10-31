@@ -11,10 +11,15 @@ using Component.Tools;
 namespace Core.Models
 {
     /// <summary>
-    /// 新闻实体模型
+    /// 新闻类目信息实体模型
     /// </summary>
-    public class News : EntityBase
+    public class NewsCategory
     {
+        public NewsCategory()
+        {
+            StorOrder = 0;
+            Pid = 0;
+        }
         /// <summary>
         /// 标题
         /// </summary>
@@ -28,10 +33,6 @@ namespace Core.Models
         /// 父id值
         /// </summary>
         public int Pid { get; set; }
-        /// <summary>
-        /// 是否是静态的
-        /// </summary>
-        public bool IsStatic { get; set; }
         /// <summary>
         /// 简要描述
         /// </summary>
@@ -47,13 +48,5 @@ namespace Core.Models
         /// </summary>
         [StringLength(6)]
         public string Language { get; set; }
-        /// <summary>
-        /// 分类ID
-        /// </summary>
-        public int NewsCategoryId { get; set; }
-        /// <summary>
-        /// 分类实体
-        /// </summary>
-        public virtual NewsCategory NewsCategory{get;set;}
     }
 }

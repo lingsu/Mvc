@@ -44,7 +44,6 @@
     <Compile Include="LoginModel.cs" />
     <Compile Include="MemberView.cs" />
     <Compile Include="PostProduct.cs" />
-    <Compile Include="ProductStaticView.cs" />
     <Compile Include="ProductView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemSet.cs" />
