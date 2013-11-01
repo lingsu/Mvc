@@ -43,6 +43,11 @@ namespace Core.Models
         [StringLength(70)]
         public string ImageUrl { get; set; }
         /// <summary>
+        /// 下载链接
+        /// </summary>
+        [StringLength(70)]
+        public string DownloadUrl { get; set; }
+        /// <summary>
         /// 语言 CN|EN
         /// </summary>
         [StringLength(6)]

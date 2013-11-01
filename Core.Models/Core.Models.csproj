@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Article.cs" />
     <Compile Include="Category.cs" />
+    <Compile Include="Friendlink.cs" />
     <Compile Include="LoginInfo.cs" />
     <Compile Include="LoginLog.cs" />
     <Compile Include="Member.cs" />

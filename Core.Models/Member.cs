@@ -55,7 +55,7 @@ namespace Core.Models
         ///  邮件验证截至日期
         /// </summary>
         [DataType(DataType.DateTime)]
-        public DateTime EndCheck { get; set; }
+        public DateTime? EndCheck { get; set; }
 
         /// <summary>
         /// 邮件验证码
@@ -72,6 +72,7 @@ namespace Core.Models
         /// </summary>
         [StringLength(20)]
         public string Phone { get; set; }
+        [StringLength(200)]
         /// <summary>
         /// 联系地址
         /// </summary>

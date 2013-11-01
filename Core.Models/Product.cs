@@ -17,7 +17,7 @@ namespace Core.Models
     {
         public Product()
         {
-            OrdeyInt = 0;
+            SortOrder = 0;
         }
         /// <summary>
         /// 产品中文名称
@@ -77,7 +77,7 @@ namespace Core.Models
         /// <summary>
         /// 产品排序值越大越靠前
         /// </summary>
-        public int OrdeyInt { get; set; }
+        public int SortOrder { get; set; }
         /// <summary>
         /// 是否是静态页
         /// </summary>
